@@ -132,7 +132,7 @@
 		</div>
 
 		<!-- Seccion 1 - quienes somos -->
-		<section class="container">
+		<section class="container d-none d-md-block mt-5">
 			<h2 class="titulo">¿QUIENES SOMOS?</h2>
 			<div class="row">
 				<div class="col-12 col-md-4">
@@ -173,7 +173,7 @@
 		</section>
 
 		<!-- Seccion 2 - tarjetas -->
-		<section class="container">
+		<section class="container mt-5">
 			<div class="py-3 px-3 px-md-5">
 				<h2 class="titulo">DESTACADOS</h2>
 				<div class="row gy-3">
@@ -184,18 +184,13 @@
 								class="card-img-top"
 								alt="..."
 							/>
-							<div class="card-body">
+							<div class="card-body bg-info">
 								<h5 class="card-title">Card title</h5>
 								<p class="card-text">
 									This is a wider card with supporting text below as a natural
 									lead-in to additional content. This content is a little bit
 									longer.
 								</p>
-							</div>
-							<div class="card-footer">
-								<small class="text-body-secondary"
-									>Last updated 3 mins ago</small
-								>
 							</div>
 						</div>
 					</div>
@@ -206,18 +201,14 @@
 								class="card-img-top"
 								alt="..."
 							/>
-							<div class="card-body">
+							<div class="card-body bg-info">
 								<h5 class="card-title">Card title</h5>
 								<p class="card-text">
 									This card has supporting text below as a natural lead-in to
 									additional content.
 								</p>
 							</div>
-							<div class="card-footer">
-								<small class="text-body-secondary"
-									>Last updated 3 mins ago</small
-								>
-							</div>
+							
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-3">
@@ -227,7 +218,7 @@
 								class="card-img-top"
 								alt="..."
 							/>
-							<div class="card-body">
+							<div class="card-body bg-info">
 								<h5 class="card-title">Card title</h5>
 								<p class="card-text">
 									This is a wider card with supporting text below as a natural
@@ -235,11 +226,7 @@
 									content than the first to show that equal height action.
 								</p>
 							</div>
-							<div class="card-footer">
-								<small class="text-body-secondary"
-									>Last updated 3 mins ago</small
-								>
-							</div>
+							
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-3">
@@ -249,7 +236,7 @@
 								class="card-img-top"
 								alt="..."
 							/>
-							<div class="card-body">
+							<div class="card-body bg-info">
 								<h5 class="card-title">Card title</h5>
 								<p class="card-text">
 									This is a wider card with supporting text below as a natural
@@ -257,11 +244,7 @@
 									content than the first to show that equal height action.
 								</p>
 							</div>
-							<div class="card-footer">
-								<small class="text-body-secondary"
-									>Last updated 3 mins ago</small
-								>
-							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -269,8 +252,87 @@
 		</section>
 
 		<!-- Seccion 3 - formulario -->
-		<section></section>
+		<section class="container">
+			<form>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label"
+						>Email</label
+					>
+					<input
+						type="email"
+						class="form-control"
+						id="exampleInputEmail1"
+						aria-describedby="emailHelp"
+					/>
+					
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputPassword1" class="form-label">Contraseña</label>
+					<input
+						type="password"
+						class="form-control"
+						id="exampleInputPassword1"
+					/>
+				</div>
+				
+				<button type="submit" class="btn btn-primary mb-5">Enviar</button>
+			</form>
+		</section>
 
 		<!-- Footer -->
+		<footer class="bg-info p-4" mt-5>
+            <div
+                class="container d-flex justify-content-around align-items-center"
+            >
+                <h2 class="text-uppercase text-white footer-titulo">
+                    Viajes Chile
+                </h2>
+                <div class="d-flex align-items-center">
+                    <div
+                        class="me-3"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        data-bs-title="github"
+                    >
+                        <i
+                            class="fa-brands fa-github fa-2xl"
+                            style="color: white"
+                        ></i>
+                    </div>
+                    <div
+                        class="me-3"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        data-bs-title="LinkedIn"
+                    >
+                        <i
+                            class="fa-brands fa-linkedin fa-2x"
+                            style="color: white"
+                        ></i>
+                    </div>
+                    <div
+                        class="me-3"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        data-bs-title="twitter"
+                    >
+                        <i
+                            class="fa-brands fa-square-twitter fa-2xl"
+                            style="color: white"
+                        ></i>
+                    </div>
+                    <div
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        data-bs-title="facebook"
+                    >
+                        <i
+                            class="fa-brands fa-square-facebook fa-2xl"
+                            style="color: white"
+                        ></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
 	</body>
 </html>
